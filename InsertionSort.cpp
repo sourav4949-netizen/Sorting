@@ -23,7 +23,7 @@ void Print1Array(int arr[],int length)
   }
   cout<<endl;
 }
-int main()
+/*int main()
 {
   int arr[]={2,45,12,67,43,89,43,98};
   int length;
@@ -33,4 +33,4 @@ int main()
   InsertionSort(arr,length);
   cout<<"Sorted array after insertion sort is:";
   Print1Array(arr,length);
-}
+}*/
