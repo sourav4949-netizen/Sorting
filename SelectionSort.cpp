@@ -29,7 +29,7 @@ void PrintArray1(int arr[],int n)
   }
   cout<<endl;
 }
-int main() {
+/*int main() {
   int arr[]={34,45,87,12,21,4,9,8,43,132};
   int length;
   length=sizeof(arr)/sizeof(arr[0]);
@@ -38,4 +38,4 @@ int main() {
   SelectionSort(arr,length);
   cout<<"Sorted array is:";
   PrintArray1(arr,length);
-}
+}*/
