@@ -1,11 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void swapping(int &a, int &b) {     //swap the content of a and b
-   int temp;
-   temp = a;
-   a = b;
-   b = temp;
-}
+
 void display(int *array, int size) {
    for(int i = 0; i<size; i++)
       cout << array[i] << " ";
@@ -52,8 +47,7 @@ void mergeSort(int *array, int l, int r) {
       merge(array, l, m, r);
    }
 }
-/*
-int main() {
+/*int main() {
    int n;
    int arr[]={34,45,65,87,23,12,21,98,76,232,44};     
    n=sizeof(arr)/sizeof(arr[0]);
